@@ -1,5 +1,4 @@
 import main
-from Classes import Product, Category
 
 
 def test_main_func(capsys):
