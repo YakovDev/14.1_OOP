@@ -1,0 +1,24 @@
+[project]
+name = "14-1-oop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Groker", email = "ya@list.ru"}
+]
+requires-python = ">=3.13"
+[tool.poetry]
+package-mode = false
+
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = ">=0.17.1,<0.18.0"
+
+[tool.poetry.group.tests.dependencies]
+pytest = ">=9.1.1,<10.0.0"
+pytest-cov = ">=7.1.0,<8.0.0"
